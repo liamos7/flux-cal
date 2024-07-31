@@ -1,10 +1,9 @@
 # flux-cal
-Photometric calibration of SuperBIT Telescope
+Photometric Calibration of SuperBIT Telescope
 
-Liam O'Shaughnessy (Princeton '26, physics) under the direction of Dr. William Jones
-Summer 2024
+Liam O'Shaughnessy (Princeton '26, physics) under the direction of Dr. William Jones - Princeton University - Department of Physics - Summer 2024
 
-In this project, my objective was to produce a lower-order flux calibration for the SuperBIT telescope with respect to a reference (the Subaru Hyper-Suprime Cam).
+In this project, my objective was to produce a lower-order flux calibration for the SuperBIT telescope with respect to a reference (the Subaru Telescope Hyper-Suprime Cam).
 
 
 Two VERY important notes:
