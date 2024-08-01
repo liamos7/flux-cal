@@ -1,3 +1,5 @@
+# somehwat old and could use update (to make it work for cosmosk), produces a binned grid that shows the number of objects in each bin
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import colors
