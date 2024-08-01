@@ -1,3 +1,5 @@
+# somewhat old and needs updates, produces catalogs of objects not commonly identified
+
 import numpy as np
 
 cat_data = np.loadtxt('catalogs/band0_x_hscg_catalog.csv', delimiter=',', skiprows=1)
