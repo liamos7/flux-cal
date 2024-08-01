@@ -1,8 +1,10 @@
+# Visualizes the bandpass distributions
+
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
 
-
+# converts from .txt (how they appear online) to .csv (what we work with)
 def to_csv(txt_name,csv_name):
     with open(txt_name, 'r') as txt_file, open(csv_name,'w', newline='') as csv_file:
         csv_writer = csv.writer(csv_file)
@@ -44,5 +46,5 @@ plt.legend()
 plt.xlabel('Wavelength (nanometers)')
 plt.ylabel('Transmission')
 plt.title('SuperBIT and HSC Bandpass Distributions')
-plt.savefig('band_data/bandpass_plot.png')
+#plt.savefig('band_data/bandpass_plot.png')
 plt.show()
