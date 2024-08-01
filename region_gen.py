@@ -1,3 +1,5 @@
+# creates .reg files of data for DS9 visualization
+
 import numpy as np
 
 # for any csv's that have RA and dec as columns
@@ -5,8 +7,8 @@ data = np.genfromtxt('cosmosk/catalogs/band0_x_hscr_catalog.csv', delimiter=',',
 alphas = data[:,16]
 deltas = data[:,18]
 
-
 '''
+# from .cat file
 data = np.loadtxt('cosmosk/cat_files/hscr.cat',skiprows=1)
 alphas = data[:,9]
 deltas = data[:,10]
@@ -17,5 +19,3 @@ with open('cosmosk/region_overlays/cat_regions/band0_x_hscr_cat_regions.reg', 'w
     f.write('icrs\n')
     for i in range(alphas.size):
         f.write('point(' + str(alphas[i]) +',' +str(deltas[i]) + ')\n')
-
-f.close()
